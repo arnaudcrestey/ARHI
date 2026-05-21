@@ -1,0 +1,3 @@
+import { LayoutShell } from "@/components/layout-shell";
+
+export default function DashboardPage() { return <LayoutShell><h1 className="text-4xl md:text-5xl">Dashboard Démonstration</h1><div className="mt-10 grid gap-4 lg:grid-cols-3">{["Profils compatibles", "Cohérence équipes", "Tendances relationnelles", "Dynamique collective", "Cartographie humaine", "Alertes de friction"].map((item) => <article key={item} className="card p-6"><p className="text-sm text-white/55">Module</p><h3 className="mt-2 text-xl">{item}</h3><div className="mt-4 h-24 rounded-xl bg-white/[0.04]"/></article>)}</div></LayoutShell>; }

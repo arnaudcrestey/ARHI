@@ -1,0 +1,3 @@
+import { LayoutShell } from "@/components/layout-shell";
+
+export default function VisionPage() { return <LayoutShell><h1 className="text-4xl md:text-5xl">Vision ARHI</h1><div className="mt-10 space-y-6 text-lg text-white/75"><p>Le recrutement classique mesure des traces passées. ARHI éclaire les conditions réelles de coopération future.</p><p>Chaque entreprise possède une architecture relationnelle singulière. La performance durable naît de la cohérence humaine, pas de l&apos;accumulation de CV remarquables.</p><p>Le discernement devient une compétence stratégique : comprendre qui s&apos;épanouit dans quel contexte, avec quel rythme, et dans quelle structure de décision.</p></div></LayoutShell>; }
