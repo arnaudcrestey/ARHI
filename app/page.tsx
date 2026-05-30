@@ -33,13 +33,13 @@ export default function HomePage() {
 
           <div className="mt-8 h-px w-16 bg-gradient-to-r from-transparent via-[#C8A96A]/45 to-transparent sm:w-24" />
 
-          <h1 className="mt-10 max-w-[820px] text-[2.35rem] font-light leading-[1.04] tracking-[-0.06em] text-white sm:text-5xl md:text-6xl">
+          <h1 className="mt-10 max-w-[760px] text-[2.55rem] font-light leading-[1.12] tracking-[-0.065em] text-white sm:text-5xl sm:leading-[1.08] md:text-6xl">
   Ce qui favorise
   <br />
   ou fragilise
   <br />
   une collaboration
-  <br className="hidden sm:block" />
+  <br />
   n’apparaît pas toujours
   <br />
   lors d'un entretien.
