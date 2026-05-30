@@ -57,9 +57,9 @@ export default function HomePage() {
             Entrer
           </Link>
 
-          <p className="mt-8 text-[10px] uppercase tracking-[0.28em] text-white/30 sm:tracking-[0.34em]">
-            Accès professionnel • Analyse confidentielle
-          </p>
+          <p className="mt-8 text-center text-[9px] uppercase tracking-[0.14em] text-white/30 sm:text-[10px] sm:tracking-[0.34em]">
+  Accès professionnel • Analyse confidentielle
+</p>
         </div>
       </section>
     </main>
