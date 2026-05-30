@@ -10,12 +10,12 @@ const supabase = createClient(
 );
 
 type Props = {
-  params: {
+  params: Promise<{
     positionId: string;
-  };
-  searchParams?: {
+  }>;
+  searchParams: Promise<{
     format?: string;
-  };
+  }>;
 };
 
 const formats = {
