@@ -9,15 +9,15 @@ const supabase = createClient(
 );
 
 type Props = {
-  params: {
+  params: Promise<{
     slug: string;
-  };
+  }>;
 };
 
 export default async function OrganisationSpacePage({
   params,
 }: Props) {
-  const { slug } = params;
+  const { slug } = await params;
 
   const { data: organisation } = await supabase
     .from("arhi_organisations")
