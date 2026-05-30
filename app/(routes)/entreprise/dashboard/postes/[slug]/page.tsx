@@ -9,9 +9,9 @@ const supabase = createClient(
 );
 
 type Props = {
-  params: {
+  params: Promise<{
     slug: string;
-  };
+  }>;
 };
 
 type Candidate = {
@@ -30,7 +30,7 @@ function getCandidateName(candidate: Candidate) {
 }
 
 export default async function PosteCandidatesPage({ params }: Props) {
-  const { slug } = params;
+  const { slug } = await params;
 
   const { data: position } = await supabase
     .from("arhi_positions")
