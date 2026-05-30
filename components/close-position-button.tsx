@@ -20,7 +20,7 @@ export function ClosePositionButton({ positionId }: ClosePositionButtonProps) {
 
     setLoading(true);
 
-    const response = await fetch("/api/arhi/close-position", {
+    const response = await fetch("/api/close-position", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
