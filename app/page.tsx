@@ -34,16 +34,16 @@ export default function HomePage() {
           <div className="mt-8 h-px w-16 bg-gradient-to-r from-transparent via-[#C8A96A]/45 to-transparent sm:w-24" />
 
           <h1 className="mt-10 max-w-[820px] text-[2.35rem] font-light leading-[1.04] tracking-[-0.06em] text-white sm:text-5xl md:text-6xl">
-            Ce qui favorise
-            <br className="hidden sm:block" />
-            ou fragilise
-            <br />
-            une collaboration
-            <br className="hidden sm:block" />
-            n’apparaît pas toujours
-            <br />
-            lors d'un entretien.
-          </h1>
+  Ce qui favorise
+  <br />
+  ou fragilise
+  <br />
+  une collaboration
+  <br className="hidden sm:block" />
+  n’apparaît pas toujours
+  <br />
+  lors d'un entretien.
+</h1>
 
           <p className="mt-8 max-w-[700px] text-sm font-light leading-7 text-white/55 sm:text-base sm:leading-8">
             ARHI éclaire les compatibilités humaines et les points de vigilance
