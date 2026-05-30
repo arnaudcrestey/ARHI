@@ -45,10 +45,9 @@ export default function HomePage() {
   lors d'un entretien.
 </h1>
 
-          <p className="mt-8 max-w-[700px] text-sm font-light leading-7 text-white/55 sm:text-base sm:leading-8">
-            ARHI éclaire les compatibilités humaines et les points de vigilance
-            susceptibles d'influencer durablement une collaboration.
-          </p>
+          <p className="mt-8 max-w-[620px] text-center text-sm font-light leading-7 text-white/55 sm:text-base sm:leading-8">
+  ARHI éclaire les compatibilités humaines et les points de vigilance susceptibles d'influencer durablement une&nbsp;collaboration.
+</p>
 
           <Link
             href="/arhi"
